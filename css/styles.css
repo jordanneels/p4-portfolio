@@ -30,16 +30,22 @@ body {
   color: black;
 }
 
+h1 {
+  color: #8C201F; 
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 0px;
+}
 
 .links_top {
   color: black;
   font-family: 'Cinzel Decorative', serif;
   font-size: 15px;
   text-align: center;
-  text-decoration: none;
   list-style: none;
   margin-bottom: -5em;
-
 }
 
 .nav_top {
@@ -48,7 +54,19 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: -15px;
+}
 
+.subtitle {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+ul li {
+  color: #363636;
+  text-decoration: none;
+  list-style: none;
+  text-align: right;
 }
 
 
