@@ -39,6 +39,10 @@ h1 {
   margin-bottom: 0px;
 }
 
+img {
+  margin-bottom: -30px;
+}
+
 .links_top {
   color: black;
   font-family: 'Cinzel Decorative', serif;
