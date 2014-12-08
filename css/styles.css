@@ -25,6 +25,10 @@ body {
   background: url("../img/grey_wash_wall.png");
 }
 
+.container {
+  background-color: #F5EDE0;
+}
+
 .footer {
   text-align: center;
   color: black;
@@ -99,9 +103,11 @@ ul li {
   text-align: center;
 }
 
+/*
 .gallery .controls img {
   border: 5px solid #000;
 }
+*/
 
 .gallery .control-button {
   display: inline-block;
