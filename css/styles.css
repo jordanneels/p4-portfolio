@@ -1,6 +1,9 @@
 /* Your Website Styles */
 body {
   background: url("../img/grey_wash_wall.png");
+  z-index: -1;
+  height: 800px;
+  width: 1000px;
 }
 
 .footer {
