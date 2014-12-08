@@ -1,5 +1,55 @@
 /* Your Website Styles */
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+  text-align: right;
+}
 
+a:hover, {
+  color: #000;
+}
+
+.banner {
+  background-color: #C4634F;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+body {
+  font-family: 'Calibri';
+  color: #363636;
+  background-color: #132139;
+  font-size: 16px;
+  margin-left: 20px;
+  background: url("../img/grey_wash_wall.png");
+}
+
+.footer {
+  text-align: center;
+  color: black;
+}
+
+
+.links_top {
+  color: black;
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: -5em;
+
+}
+
+.nav_top {
+  color: #132139;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: -15px;
+
+}
 
 
 /* Gallery Stying */
@@ -23,7 +73,6 @@
   height: 400px;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
 }
 .gallery .controls {
   position: absolute;
@@ -43,10 +92,4 @@
   text-align: center;
   text-decoration: none;
   transition: color .1s;
-}
-
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
 }
