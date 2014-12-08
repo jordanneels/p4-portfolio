@@ -23,7 +23,7 @@
 		$(".ad-thumb-list").load(url,{},function (responseText, textStatus, XMLHttpRequest) {
 					//ad-gallery: 
 					
-					$('gallery/Fact Sheet.pdf').data('ad-desc', 'Whoa! This description is set through elm.data("ad-desc") instead of using the longdesc attribute.<br>And it contains <strong>H</strong>ow <strong>T</strong>o <strong>M</strong>eet <strong>L</strong>adies... <em>What?</em> That aint what HTML stands for? Man...');
+					$('gallery/img/Directional Poster.png').data('ad-desc', 'Whoa! This description is set through elm.data("ad-desc") instead of using the longdesc attribute.<br>And it contains <strong>H</strong>ow <strong>T</strong>o <strong>M</strong>eet <strong>L</strong>adies... <em>What?</em> That aint what HTML stands for? Man...');
 					$('img.image1').data('ad-title', 'Title through $.data');
 					$('img.image4').data('ad-desc', 'This image is wider than the wrapper, so it has been scaled down');
 					$('img.image5').data('ad-desc', 'This image is higher than the wrapper, so it has been scaled down');
@@ -139,10 +139,17 @@
   <title>AD-Gallery + Uploadify + classe.upload</title>
 </head>
 <body>
-  <div id="container" style="float:left;">
+  <div id="container" style="float:center;">
     
     <div id="gallery" class="ad-gallery">
       <div class="ad-image-wrapper">
+      </div>
+      <div class="ad-image" style="width: 600px; height: 400px; top: 0px; left: 0px;">
+        <img src="images/Directional Poster.png" width="600" height="400">
+        <p class="ad-image-description"style="width: 586px;">
+          <strong class="ad-description-title">Description</strong>
+          <span>Created in Typography, this is a directional poster utilizing typographic elements to show a map from my home to my Typography class</span>
+        </p>
       </div>
       <div class="ad-controls">
       </div>
@@ -167,12 +174,6 @@
     </p>
   </div>
   
-  <!--uploadify-->
-  <div style="float:left;">
-	  <div id="fileQueue"></div>
-	  <input type="file" name="uploadify" id="uploadify" />
-	  <p><a href="javascript:jQuery('#uploadify').uploadifyClearQueue()">Cancel All Uploads</a></p>
-  </div>	
-  
+ 
 </body>
 </html>
