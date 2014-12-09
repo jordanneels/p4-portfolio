@@ -70,12 +70,6 @@ section {
   size: 200px;
 }
 
-.gallery .controls img:hover,
-.gallery .controls img:active {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
 .gallery .control-button {
   display: inline-block;
   margin: 0 .02em;
