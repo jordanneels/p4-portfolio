@@ -23,6 +23,21 @@ body {
   margin-left: 200px;
 }
 
+h3 {
+  color: black;
+  font-family: 'Droid Serif', serif;
+  padding-top: 50px;
+  padding-left: 350px;
+}
+
+ul {
+  color: black;
+  font-family: 'Calibri';
+  padding-left: 350px;
+  text-decoration: none;
+  list-style: none;
+}
+
 section {
   align: center;
   margin-left: 180px;
