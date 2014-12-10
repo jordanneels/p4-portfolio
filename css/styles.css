@@ -1,12 +1,10 @@
 /* Your Website Styles */
 a:link {
-  color: black;
+  color: #000;
   text-decoration: none;
-}
-
-a:visited{
-  color: white;
-  text-decoration: none;
+  font-family: 'Calibri';
+  padding-left: 350px;
+  list-style: none;
 }
 
 
@@ -41,14 +39,6 @@ h3 {
   font-family: 'Droid Serif', serif;
   padding-top: 50px;
   padding-left: 350px;
-}
-
-ul {
-  color: #000;
-  font-family: 'Calibri';
-  padding-left: 350px;
-  text-decoration: none;
-  list-style: none;
 }
 
 section {
